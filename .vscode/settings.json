@@ -1,0 +1,31 @@
+{
+  // default alt+shift+F formater
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Format code on ctrl+S
+  "editor.formatOnSave": true,
+
+  // Langs for cSpell extension
+  "cSpell.language": "en,ru",
+
+  // Fira code to improve code readability
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // vs code prompts on
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  // Превью предложений
+  "editor.suggest.preview": true,
+
+  // file nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "yarn.lock, .stylelintrc, .stylelintignore, .eslintrc, .eslintignore, .prettierrc, .gitignore, .env, tsconfig.json, .editorconfig"
+  },
+  "cSpell.words": ["reduxjs", "toastify"]
+}
